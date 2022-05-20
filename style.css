@@ -1,0 +1,34 @@
+body {
+    background-color: greenyellow;
+}
+h1{
+    font-family: 'oswald','sans-serif';
+    background-color: cornsilk;
+    color: blue;
+}
+#score {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#timer {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+#sketch_drawn {
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+#show_sketch
+{
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+}
